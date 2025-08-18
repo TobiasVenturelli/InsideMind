@@ -79,7 +79,7 @@ export async function POST(request: Request) {
       const data = await resend.emails.send({
         from: 'InsideMind <onboarding@resend.dev>',
         to: ['venturelliquimey@gmail.com'],
-        replyTo: email,
+        reply_to: email,
         subject: `Nuevo contacto de ${name}`,
         html: `
 <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
