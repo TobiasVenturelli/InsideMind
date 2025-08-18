@@ -77,7 +77,7 @@ export async function POST(request: Request) {
 
     try {
       const data = await resend.emails.send({
-        from: 'InsideMind <onboarding@resend.dev>',
+        from: 'InsideMind Agency <onboarding@resend.dev>',
         to: ['venturelliquimey@gmail.com'],
         reply_to: email,
         subject: `Nuevo contacto de ${name}`,
@@ -102,7 +102,7 @@ export async function POST(request: Request) {
     </div>
     
     <div style="font-size: 12px; color: #666; border-top: 1px solid #eee; padding-top: 20px;">
-      <p>Este mensaje fue enviado desde el formulario de contacto de InsideMind.</p>
+      <p>Este mensaje fue enviado desde el formulario de contacto de InsideMind Agency.</p>
     </div>
   </div>
 </div>`,

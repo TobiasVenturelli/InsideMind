@@ -293,7 +293,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\Page\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -302,27 +302,27 @@ const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy
 const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
-const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\Page\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#Accordion`);
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#Accordion`);
 
-const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\Page\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#AccordionContent`);
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#AccordionContent`);
 
-const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\Page\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#AccordionHeader`);
+const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#AccordionHeader`);
 
-const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\Page\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#AccordionItem`);
+const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#AccordionItem`);
 
-const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\Page\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#AccordionTrigger`);
+const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#AccordionTrigger`);
 
-const e5 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\Page\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#Content`);
+const e5 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#Content`);
 
-const e6 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\Page\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#Header`);
+const e6 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#Header`);
 
-const e7 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\Page\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#Item`);
+const e7 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#Item`);
 
-const e8 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\Page\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#Root`);
+const e8 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#Root`);
 
-const e9 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\Page\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#Trigger`);
+const e9 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#Trigger`);
 
-const e10 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\Page\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#createAccordionScope`);
+const e10 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-accordion\dist\index.mjs#createAccordionScope`);
 
 
 /***/ }),
@@ -334,6 +334,83 @@ const e10 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   composeRefs: () => (/* binding */ composeRefs),\n/* harmony export */   useComposedRefs: () => (/* binding */ useComposedRefs)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react.js\");\n// packages/react/compose-refs/src/compose-refs.tsx\n\nfunction setRef(ref, value) {\n    if (typeof ref === \"function\") {\n        return ref(value);\n    } else if (ref !== null && ref !== void 0) {\n        ref.current = value;\n    }\n}\nfunction composeRefs(...refs) {\n    return (node)=>{\n        let hasCleanup = false;\n        const cleanups = refs.map((ref)=>{\n            const cleanup = setRef(ref, node);\n            if (!hasCleanup && typeof cleanup == \"function\") {\n                hasCleanup = true;\n            }\n            return cleanup;\n        });\n        if (hasCleanup) {\n            return ()=>{\n                for(let i = 0; i < cleanups.length; i++){\n                    const cleanup = cleanups[i];\n                    if (typeof cleanup == \"function\") {\n                        cleanup();\n                    } else {\n                        setRef(refs[i], null);\n                    }\n                }\n            };\n        }\n    };\n}\nfunction useComposedRefs(...refs) {\n    return react__WEBPACK_IMPORTED_MODULE_0__.useCallback(composeRefs(...refs), refs);\n}\n //# sourceMappingURL=index.mjs.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvQHJhZGl4LXVpL3JlYWN0LWNvbXBvc2UtcmVmcy9kaXN0L2luZGV4Lm1qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQSxtREFBbUQ7QUFDcEI7QUFDL0IsU0FBU0MsT0FBT0MsR0FBRyxFQUFFQyxLQUFLO0lBQ3hCLElBQUksT0FBT0QsUUFBUSxZQUFZO1FBQzdCLE9BQU9BLElBQUlDO0lBQ2IsT0FBTyxJQUFJRCxRQUFRLFFBQVFBLFFBQVEsS0FBSyxHQUFHO1FBQ3pDQSxJQUFJRSxPQUFPLEdBQUdEO0lBQ2hCO0FBQ0Y7QUFDQSxTQUFTRSxZQUFZLEdBQUdDLElBQUk7SUFDMUIsT0FBTyxDQUFDQztRQUNOLElBQUlDLGFBQWE7UUFDakIsTUFBTUMsV0FBV0gsS0FBS0ksR0FBRyxDQUFDLENBQUNSO1lBQ3pCLE1BQU1TLFVBQVVWLE9BQU9DLEtBQUtLO1lBQzVCLElBQUksQ0FBQ0MsY0FBYyxPQUFPRyxXQUFXLFlBQVk7Z0JBQy9DSCxhQUFhO1lBQ2Y7WUFDQSxPQUFPRztRQUNUO1FBQ0EsSUFBSUgsWUFBWTtZQUNkLE9BQU87Z0JBQ0wsSUFBSyxJQUFJSSxJQUFJLEdBQUdBLElBQUlILFNBQVNJLE1BQU0sRUFBRUQsSUFBSztvQkFDeEMsTUFBTUQsVUFBVUYsUUFBUSxDQUFDRyxFQUFFO29CQUMzQixJQUFJLE9BQU9ELFdBQVcsWUFBWTt3QkFDaENBO29CQUNGLE9BQU87d0JBQ0xWLE9BQU9LLElBQUksQ0FBQ00sRUFBRSxFQUFFO29CQUNsQjtnQkFDRjtZQUNGO1FBQ0Y7SUFDRjtBQUNGO0FBQ0EsU0FBU0UsZ0JBQWdCLEdBQUdSLElBQUk7SUFDOUIsT0FBT04sOENBQWlCLENBQUNLLGVBQWVDLE9BQU9BO0FBQ2pEO0FBSUUsQ0FDRixrQ0FBa0MiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hZ2VuY2lhLW1hcmtldGluZy8uL25vZGVfbW9kdWxlcy9AcmFkaXgtdWkvcmVhY3QtY29tcG9zZS1yZWZzL2Rpc3QvaW5kZXgubWpzPzMxYzQiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gcGFja2FnZXMvcmVhY3QvY29tcG9zZS1yZWZzL3NyYy9jb21wb3NlLXJlZnMudHN4XG5pbXBvcnQgKiBhcyBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmZ1bmN0aW9uIHNldFJlZihyZWYsIHZhbHVlKSB7XG4gIGlmICh0eXBlb2YgcmVmID09PSBcImZ1bmN0aW9uXCIpIHtcbiAgICByZXR1cm4gcmVmKHZhbHVlKTtcbiAgfSBlbHNlIGlmIChyZWYgIT09IG51bGwgJiYgcmVmICE9PSB2b2lkIDApIHtcbiAgICByZWYuY3VycmVudCA9IHZhbHVlO1xuICB9XG59XG5mdW5jdGlvbiBjb21wb3NlUmVmcyguLi5yZWZzKSB7XG4gIHJldHVybiAobm9kZSkgPT4ge1xuICAgIGxldCBoYXNDbGVhbnVwID0gZmFsc2U7XG4gICAgY29uc3QgY2xlYW51cHMgPSByZWZzLm1hcCgocmVmKSA9PiB7XG4gICAgICBjb25zdCBjbGVhbnVwID0gc2V0UmVmKHJlZiwgbm9kZSk7XG4gICAgICBpZiAoIWhhc0NsZWFudXAgJiYgdHlwZW9mIGNsZWFudXAgPT0gXCJmdW5jdGlvblwiKSB7XG4gICAgICAgIGhhc0NsZWFudXAgPSB0cnVlO1xuICAgICAgfVxuICAgICAgcmV0dXJuIGNsZWFudXA7XG4gICAgfSk7XG4gICAgaWYgKGhhc0NsZWFudXApIHtcbiAgICAgIHJldHVybiAoKSA9PiB7XG4gICAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgY2xlYW51cHMubGVuZ3RoOyBpKyspIHtcbiAgICAgICAgICBjb25zdCBjbGVhbnVwID0gY2xlYW51cHNbaV07XG4gICAgICAgICAgaWYgKHR5cGVvZiBjbGVhbnVwID09IFwiZnVuY3Rpb25cIikge1xuICAgICAgICAgICAgY2xlYW51cCgpO1xuICAgICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICBzZXRSZWYocmVmc1tpXSwgbnVsbCk7XG4gICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICB9O1xuICAgIH1cbiAgfTtcbn1cbmZ1bmN0aW9uIHVzZUNvbXBvc2VkUmVmcyguLi5yZWZzKSB7XG4gIHJldHVybiBSZWFjdC51c2VDYWxsYmFjayhjb21wb3NlUmVmcyguLi5yZWZzKSwgcmVmcyk7XG59XG5leHBvcnQge1xuICBjb21wb3NlUmVmcyxcbiAgdXNlQ29tcG9zZWRSZWZzXG59O1xuLy8jIHNvdXJjZU1hcHBpbmdVUkw9aW5kZXgubWpzLm1hcFxuIl0sIm5hbWVzIjpbIlJlYWN0Iiwic2V0UmVmIiwicmVmIiwidmFsdWUiLCJjdXJyZW50IiwiY29tcG9zZVJlZnMiLCJyZWZzIiwibm9kZSIsImhhc0NsZWFudXAiLCJjbGVhbnVwcyIsIm1hcCIsImNsZWFudXAiLCJpIiwibGVuZ3RoIiwidXNlQ29tcG9zZWRSZWZzIiwidXNlQ2FsbGJhY2siXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/@radix-ui/react-compose-refs/dist/index.mjs\n");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/@radix-ui/react-dialog/dist/index.mjs":
+/*!************************************************************!*\
+  !*** ./node_modules/@radix-ui/react-dialog/dist/index.mjs ***!
+  \************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Close: () => (/* binding */ e0),
+/* harmony export */   Content: () => (/* binding */ e1),
+/* harmony export */   Description: () => (/* binding */ e2),
+/* harmony export */   Dialog: () => (/* binding */ e3),
+/* harmony export */   DialogClose: () => (/* binding */ e4),
+/* harmony export */   DialogContent: () => (/* binding */ e5),
+/* harmony export */   DialogDescription: () => (/* binding */ e6),
+/* harmony export */   DialogOverlay: () => (/* binding */ e7),
+/* harmony export */   DialogPortal: () => (/* binding */ e8),
+/* harmony export */   DialogTitle: () => (/* binding */ e9),
+/* harmony export */   DialogTrigger: () => (/* binding */ e10),
+/* harmony export */   Overlay: () => (/* binding */ e11),
+/* harmony export */   Portal: () => (/* binding */ e12),
+/* harmony export */   Root: () => (/* binding */ e13),
+/* harmony export */   Title: () => (/* binding */ e14),
+/* harmony export */   Trigger: () => (/* binding */ e15),
+/* harmony export */   WarningProvider: () => (/* binding */ e16),
+/* harmony export */   createDialogScope: () => (/* binding */ e17)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#Close`);
+
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#Content`);
+
+const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#Description`);
+
+const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#Dialog`);
+
+const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#DialogClose`);
+
+const e5 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#DialogContent`);
+
+const e6 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#DialogDescription`);
+
+const e7 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#DialogOverlay`);
+
+const e8 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#DialogPortal`);
+
+const e9 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#DialogTitle`);
+
+const e10 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#DialogTrigger`);
+
+const e11 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#Overlay`);
+
+const e12 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#Portal`);
+
+const e13 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#Root`);
+
+const e14 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#Title`);
+
+const e15 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#Trigger`);
+
+const e16 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#WarningProvider`);
+
+const e17 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\LENOVO\Desktop\InsideMind\agencia-marketing\node_modules\@radix-ui\react-dialog\dist\index.mjs#createDialogScope`);
+
 
 /***/ }),
 

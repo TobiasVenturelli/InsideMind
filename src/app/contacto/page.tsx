@@ -394,7 +394,7 @@ export default function ContactoPage() {
                     <Label.Root htmlFor="acceptTerms" className="text-sm text-oxford_blue-600">
                       Acepto los <Link href="/terminos" className="text-orange_web hover:text-orange_web-600 underline">términos y condiciones</Link> y la{" "}
                       <Link href="/privacidad" className="text-orange_web hover:text-orange_web-600 underline">política de privacidad</Link>.
-                      También acepto recibir comunicaciones sobre los servicios de InsideMind.
+                      También acepto recibir comunicaciones sobre los servicios de InsideMind Agency.
                     </Label.Root>
                   </Form.Field>
 
@@ -440,7 +440,8 @@ export default function ContactoPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              ¿Por qué elegir InsideMind?
+              ¿Por qué elegir InsideMind<br />
+              <span className="text-xl font-normal">Agency?</span>
             </h2>
             <p className="text-xl text-gray-600">
               Nuestro compromiso es tu éxito digital

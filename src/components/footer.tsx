@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Separator } from "@radix-ui/react-separator"
 
 const Footer = () => {
@@ -8,8 +9,22 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo y descripción */}
           <div className="col-span-1 md:col-span-2">
-            <Link href="/" className="text-2xl font-bold">
-              Inside<span className="text-orange_web">Mind</span>
+            <Link href="/" className="flex items-center mb-4">
+              <Image
+                src="/logos/logo1.png"
+                alt="Inside Mind Agency"
+                width={88}
+                height={88}
+                className="w-24 h-24 object-contain"
+              />
+              <div className="ml-3 flex flex-col">
+                <span className="text-2xl font-bold">
+                  Inside<span className="text-orange_web">Mind</span>
+                </span>
+                <span className="text-lg font-semibold text-orange_web -mt-1">
+                  Agency
+                </span>
+              </div>
             </Link>
             <p className="mt-4 text-gray-300 max-w-md">
               No hacemos magia, impactamos su mente con estrategia. 
@@ -100,7 +115,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
-            © 2024 InsideMind. Todos los derechos reservados.
+            © 2024 InsideMind Agency. Todos los derechos reservados.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/privacidad" className="text-gray-300 hover:text-orange_web text-sm transition-colors">

@@ -18,9 +18,14 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "InsideMind - Agencia de Marketing Digital",
+  title: "InsideMind Agency - Agencia de Marketing Digital",
   description: "No hacemos magia, impactamos su mente con estrategia. Paid Media, Redes Sociales, Sitio Web, Branding y Diseño Digital.",
   keywords: "paid media, redes sociales, sitio web, branding, diseño digital, agencia marketing, estrategia digital",
+  icons: {
+    icon: '/logos/logo1.png',
+    shortcut: '/logos/logo1.png',
+    apple: '/logos/logo1.png',
+  },
 };
 
 export default function RootLayout({

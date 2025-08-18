@@ -31,7 +31,7 @@ export default function TerminosPage() {
           <div className="bg-white rounded-2xl shadow-lg p-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-600 mb-8">
-                Estos Términos y Condiciones (los "Términos") regulan el acceso y uso del sitio web y la contratación de servicios de marketing digital brindados por InsideMind ("la Empresa", "nosotros"). Al navegar el Sitio y/o contratar nuestros servicios, usted ("Usuario/Cliente") declara haber leído y aceptado estos Términos y nuestra Política de Privacidad.
+                Estos Términos y Condiciones (los "Términos") regulan el acceso y uso del sitio web y la contratación de servicios de marketing digital brindados por InsideMind Agency ("la Empresa", "nosotros"). Al navegar el Sitio y/o contratar nuestros servicios, usted ("Usuario/Cliente") declara haber leído y aceptado estos Términos y nuestra Política de Privacidad.
               </p>
 
               <Accordion.Root type="single" collapsible className="space-y-4">

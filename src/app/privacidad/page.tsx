@@ -31,7 +31,7 @@ export default function PrivacidadPage() {
           <div className="bg-white rounded-2xl shadow-lg p-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-600 mb-8">
-                Esta Política de Privacidad (la "Política") explica cómo InsideMind ("la Empresa", "nosotros") trata los datos personales cuando usted ("Usuario/Cliente") utiliza nuestro sitio web y/o contrata nuestros servicios de marketing digital (los "Servicios").
+                Esta Política de Privacidad (la "Política") explica cómo InsideMind Agency ("la Empresa", "nosotros") trata los datos personales cuando usted ("Usuario/Cliente") utiliza nuestro sitio web y/o contrata nuestros servicios de marketing digital (los "Servicios").
               </p>
 
               <Accordion.Root type="single" collapsible className="space-y-4">

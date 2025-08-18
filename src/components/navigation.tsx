@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import * as NavigationMenu from "@radix-ui/react-navigation-menu"
 import { cn } from "@/lib/utils"
 import { ChevronDownIcon } from "@radix-ui/react-icons"
@@ -16,8 +17,22 @@ const Navigation = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold text-white">
-              Inside<span className="text-orange_web">Mind</span>
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/logos/logo1.png"
+                alt="Inside Mind Agency"
+                width={112}
+                height={112}
+                className="w-28 h-28 object-contain"
+              />
+              <div className="ml-3 flex flex-col">
+                <span className="text-xl font-bold text-white">
+                  Inside<span className="text-orange_web">Mind</span>
+                </span>
+                <span className="text-sm font-semibold text-orange_web -mt-1">
+                  Agency
+                </span>
+              </div>
             </Link>
           </div>
 
@@ -171,34 +186,52 @@ const Navigation = () => {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 border-t">
+            <div className="px-2 pt-2 pb-3 space-y-1 border-t border-white/10">
+              {/* Logo Mobile */}
+              <div className="flex items-center px-3 py-2 mb-4">
+                <Image
+                  src="/logos/logo1.png"
+                  alt="Inside Mind Agency"
+                  width={80}
+                  height={80}
+                  className="w-20 h-20 object-contain"
+                />
+                <div className="ml-3 flex flex-col">
+                  <span className="text-lg font-bold text-white">
+                    Inside<span className="text-orange_web">Mind</span>
+                  </span>
+                  <span className="text-sm font-semibold text-orange_web -mt-1">
+                    Agency
+                  </span>
+                </div>
+              </div>
               <Link
                 href="/"
-                className="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
+                className="block px-3 py-2 text-base font-medium text-white hover:text-orange_web hover:bg-white/10 rounded-md transition-colors"
               >
                 Inicio
               </Link>
               <Link
                 href="/servicios"
-                className="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
+                className="block px-3 py-2 text-base font-medium text-white hover:text-orange_web hover:bg-white/10 rounded-md transition-colors"
               >
                 Servicios
               </Link>
               <Link
                 href="/portafolio"
-                className="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
+                className="block px-3 py-2 text-base font-medium text-white hover:text-orange_web hover:bg-white/10 rounded-md transition-colors"
               >
                 Portafolio
               </Link>
               <Link
                 href="/nosotros"
-                className="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
+                className="block px-3 py-2 text-base font-medium text-white hover:text-orange_web hover:bg-white/10 rounded-md transition-colors"
               >
                 Nosotros
               </Link>
               <Link
                 href="/contacto"
-                className="block mx-3 my-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white rounded-xl text-base font-semibold shadow-sm hover:shadow-md transition-all duration-300 transform hover:scale-[1.02] text-center"
+                className="block mx-3 my-2 px-4 py-2 bg-orange_web hover:bg-orange_web-600 text-oxford_blue rounded-xl text-base font-semibold shadow-sm hover:shadow-md transition-all duration-300 transform hover:scale-[1.02] text-center"
               >
                 Contacto
               </Link>

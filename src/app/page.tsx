@@ -92,7 +92,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Paid Media */}
-            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-platinum-300 hover:border-orange_web">
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-platinum-300 hover:border-orange_web flex flex-col h-full">
               <div className="w-16 h-16 bg-gradient-to-br from-orange_web-100 to-orange_web-200 rounded-2xl flex items-center justify-center mb-6 group-hover:from-orange_web-200 group-hover:to-orange_web-300 transition-all duration-300 group-hover:scale-110">
                 <TrendingUp className="h-8 w-8 text-orange_web group-hover:text-orange_web-600" />
               </div>
@@ -100,7 +100,7 @@ export default function Home() {
               <p className="text-gray-600 mb-6">
                 Publicidad estratégica en plataformas digitales que impacta la mente de tu audiencia y maximiza el ROI.
               </p>
-              <ul className="space-y-2 mb-6">
+              <ul className="space-y-2 mb-6 flex-grow">
                 <li className="flex items-center text-sm text-gray-600">
                   <CheckCircle className="h-4 w-4 text-orange_web mr-2" />
                   Google Ads & Meta Ads
@@ -116,7 +116,7 @@ export default function Home() {
               </ul>
               <Link 
                 href="/servicios/paid-media"
-                className="group inline-flex items-center px-4 py-2 bg-orange_web hover:bg-orange_web-600 text-black font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md"
+                className="group inline-flex items-center px-4 py-2 bg-orange_web hover:bg-orange_web-600 text-black font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md mt-auto self-start"
               >
                 Saber más
                 <ArrowRight className="ml-1 h-4 w-5 group-hover:translate-x-0.5 transition-transform duration-300" />
@@ -124,7 +124,7 @@ export default function Home() {
             </div>
 
             {/* Redes Sociales */}
-            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-platinum-300 hover:border-orange_web">
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-platinum-300 hover:border-orange_web flex flex-col h-full">
               <div className="w-16 h-16 bg-gradient-to-br from-orange_web-100 to-orange_web-200 rounded-2xl flex items-center justify-center mb-6 group-hover:from-orange_web-200 group-hover:to-orange_web-300 transition-all duration-300 group-hover:scale-110">
                 <Users className="h-8 w-8 text-orange_web group-hover:text-orange_web-600" />
               </div>
@@ -132,7 +132,7 @@ export default function Home() {
               <p className="text-gray-600 mb-6">
                 Conectamos tu marca con la audiencia correcta, construyendo comunidades que se convierten en clientes leales.
               </p>
-              <ul className="space-y-2 mb-6">
+              <ul className="space-y-2 mb-6 flex-grow">
                 <li className="flex items-center text-sm text-gray-600">
                   <CheckCircle className="h-4 w-4 text-orange_web mr-2" />
                   Estrategia de contenido
@@ -140,15 +140,15 @@ export default function Home() {
                 <li className="flex items-center text-sm text-gray-600">
                   <CheckCircle className="h-4 w-4 text-orange_web mr-2" />
                   Community management
-          </li>
+                </li>
                 <li className="flex items-center text-sm text-gray-600">
                   <CheckCircle className="h-4 w-4 text-orange_web mr-2" />
                   Campañas orgánicas
-          </li>
+                </li>
               </ul>
               <Link 
                 href="/servicios/redes-sociales"
-                className="group inline-flex items-center px-4 py-2 bg-orange_web hover:bg-orange_web-600 text-black font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md"
+                className="group inline-flex items-center px-4 py-2 bg-orange_web hover:bg-orange_web-600 text-black font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md mt-auto self-start"
               >
                 Saber más
                 <ArrowRight className="ml-1 h-4 w-5 group-hover:translate-x-0.5 transition-transform duration-300" />
@@ -156,7 +156,7 @@ export default function Home() {
             </div>
 
             {/* Sitio Web */}
-            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-platinum-300 hover:border-orange_web">
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-platinum-300 hover:border-orange_web flex flex-col h-full">
               <div className="w-16 h-16 bg-gradient-to-br from-orange_web-100 to-orange_web-200 rounded-2xl flex items-center justify-center mb-6 group-hover:from-orange_web-200 group-hover:to-orange_web-300 transition-all duration-300 group-hover:scale-110">
                 <Zap className="h-8 w-8 text-orange_web group-hover:text-orange_web-600" />
               </div>
@@ -164,7 +164,7 @@ export default function Home() {
               <p className="text-gray-600 mb-6">
                 Experiencias digitales que generan resultados. Sitios web optimizados para conversión y performance.
               </p>
-              <ul className="space-y-2 mb-6">
+              <ul className="space-y-2 mb-6 flex-grow">
                 <li className="flex items-center text-sm text-gray-600">
                   <CheckCircle className="h-4 w-4 text-orange_web mr-2" />
                   Diseño UX/UI estratégico
@@ -180,7 +180,7 @@ export default function Home() {
               </ul>
               <Link 
                 href="/servicios/sitio-web"
-                className="group inline-flex items-center px-4 py-2 bg-orange_web hover:bg-orange_web-600 text-black font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md"
+                className="group inline-flex items-center px-4 py-2 bg-orange_web hover:bg-orange_web-600 text-black font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md mt-auto self-start"
               >
                 Saber más
                 <ArrowRight className="ml-1 h-4 w-5 group-hover:translate-x-0.5 transition-transform duration-300" />
@@ -188,7 +188,7 @@ export default function Home() {
             </div>
 
             {/* Branding & Diseño Digital */}
-            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-platinum-300 hover:border-orange_web">
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-platinum-300 hover:border-orange_web flex flex-col h-full">
               <div className="w-16 h-16 bg-gradient-to-br from-orange_web-100 to-orange_web-200 rounded-2xl flex items-center justify-center mb-6 group-hover:from-orange_web-200 group-hover:to-orange_web-300 transition-all duration-300 group-hover:scale-110">
                 <Zap className="h-8 w-8 text-orange_web group-hover:text-orange_web-600" />
               </div>
@@ -196,7 +196,7 @@ export default function Home() {
               <p className="text-gray-600 mb-6">
                 Identidad visual que impacta en la mente. Creamos marcas memorables y diseños que convierten.
               </p>
-              <ul className="space-y-2 mb-6">
+              <ul className="space-y-2 mb-6 flex-grow">
                 <li className="flex items-center text-sm text-gray-600">
                   <CheckCircle className="h-4 w-4 text-orange_web mr-2" />
                   Identidad visual completa
@@ -212,7 +212,7 @@ export default function Home() {
               </ul>
               <Link 
                 href="/servicios/branding"
-                className="group inline-flex items-center px-4 py-2 bg-orange_web hover:bg-orange_web-600 text-black font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md"
+                className="group inline-flex items-center px-4 py-2 bg-orange_web hover:bg-orange_web-600 text-black font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md mt-auto self-start"
               >
                 Saber más
                 <ArrowRight className="ml-1 h-4 w-5 group-hover:translate-x-0.5 transition-transform duration-300" />
@@ -225,17 +225,15 @@ export default function Home() {
       {/* Por qué elegirnos */}
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-orange_web/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-oxford_blue/20 rounded-full blur-3xl"></div>
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h2 className="text-4xl md:text-5xl font-bold text-orange_web pb-4">
-                ¿Por qué elegir InsideMind?
+                ¿Por qué elegir InsideMind?<br />
               </h2>
               <div className="w-24 h-1 bg-orange_web mt-4 rounded-full"></div>
-              <p className="text-xl text-oxford_blue-600 mt-8 mb-8">
+              <p className="text-xl text-white mt-8 mb-8">
                 No hacemos magia, aplicamos <span className="font-semibold text-orange_web">psicología del consumidor</span> y 
                 <span className="font-semibold text-orange_web"> estrategia basada en datos</span> para impactar 
                 directamente en la mente de tu audiencia.
@@ -310,7 +308,7 @@ export default function Home() {
                 <div className="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-black rounded-full blur-2xl opacity-20"></div>
                 <div className="relative">
                   <h3 className="text-3xl font-bold mb-2 text-white">
-                    Consulta Gratuita
+                    Consulta Gratuita 
                   </h3>
                   <div className="w-16 h-1 bg-white rounded-full mb-6"></div>
                   <p className="text-lg text-white mb-8">
@@ -351,11 +349,9 @@ export default function Home() {
       </section>
 
       {/* CTA Final */}
-      <section className="py-20 bg-gradient-to-br from-oxford_blue via-oxford_blue-600 to-oxford_blue-700 text-white relative overflow-hidden">
+      <section className="py-20 text-white relative">
         {/* Animated background elements */}
         <div className="absolute inset-0">
-          <div className="absolute top-0 left-0 w-72 h-72 bg-orange_web/10 rounded-full blur-3xl animate-float"></div>
-          <div className="absolute bottom-0 right-0 w-96 h-96 bg-platinum/10 rounded-full blur-3xl animate-float delay-1000"></div>
         </div>
         
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
