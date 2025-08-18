@@ -2,5 +2,6 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
   "/contacto/page": "app/contacto/page.js",
-  "/portafolio/page": "app/portafolio/page.js"
+  "/terminos/page": "app/terminos/page.js",
+  "/privacidad/page": "app/privacidad/page.js"
 }
