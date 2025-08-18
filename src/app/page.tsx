@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, CheckCircle, TrendingUp, Users, Zap, BarChart, Instagram, Phone } from "lucide-react"
+import { ArrowRight, CheckCircle, TrendingUp, Users, Zap, BarChart } from "lucide-react"
 import * as Accordion from "@radix-ui/react-accordion"
 import * as Tooltip from "@radix-ui/react-tooltip"
 import { ChevronDownIcon } from "@radix-ui/react-icons"
@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 text-white py-20 lg:py-32 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-black via-gray-900 to-black text-white py-20 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 bg-black/30"></div>
         {/* Animated Background Elements */}
         <div className="absolute inset-0">
@@ -21,24 +21,24 @@ export default function Home() {
             <div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                 No hacemos magia,
-                <span className="text-yellow-300 block">impactamos su mente</span>
+                <span className="text-orange-500 block" style={{color: '#fc9700'}}>impactamos su mente</span>
                 <span className="text-white block">con estrategia</span>
               </h1>
-              <p className="mt-6 text-xl text-blue-100 max-w-lg">
+              <p className="mt-6 text-xl text-gray-300 max-w-lg">
                 Transformamos ideas en resultados tangibles con estrategias digitales 
                 que conectan con la mente de tu audiencia y generan conversiones reales.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <Link 
                   href="/contacto"
-                  className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-yellow-400 to-orange-400 hover:from-yellow-300 hover:to-orange-300 text-gray-900 font-bold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                  className="group inline-flex items-center px-8 py-4 bg-brand-orange text-brand-black font-bold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                 >
                   Comenzar Ahora
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </Link>
                 <Link 
                   href="/portafolio"
-                  className="group inline-flex items-center px-8 py-4 border-2 border-white/80 hover:bg-white/10 backdrop-blur-sm font-semibold rounded-xl transition-all duration-300 hover:border-white hover:shadow-lg"
+                  className="group inline-flex items-center px-8 py-4 border-2 border-brand-orange text-brand-orange hover:bg-brand-orange hover:text-brand-black font-semibold rounded-xl transition-all duration-300 hover:shadow-lg"
                 >
                   Ver Casos de Éxito
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
@@ -49,20 +49,20 @@ export default function Home() {
               <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 shadow-2xl">
                 <div className="grid grid-cols-2 gap-8">
                   <div className="text-center group hover:scale-105 transition-transform duration-300">
-                    <div className="text-4xl font-bold text-yellow-300 mb-2 group-hover:text-yellow-200">+500</div>
-                    <div className="text-blue-100 text-sm font-medium">Clientes Satisfechos</div>
+                    <div className="text-4xl font-bold text-brand-orange mb-2">+500</div>
+                    <div className="text-gray-300 text-sm font-medium">Clientes Satisfechos</div>
                   </div>
                   <div className="text-center group hover:scale-105 transition-transform duration-300">
-                    <div className="text-4xl font-bold text-yellow-300 mb-2 group-hover:text-yellow-200">+300%</div>
-                    <div className="text-blue-100 text-sm font-medium">ROI Promedio</div>
+                    <div className="text-4xl font-bold text-brand-orange mb-2">+300%</div>
+                    <div className="text-gray-300 text-sm font-medium">ROI Promedio</div>
                   </div>
                   <div className="text-center group hover:scale-105 transition-transform duration-300">
-                    <div className="text-4xl font-bold text-yellow-300 mb-2 group-hover:text-yellow-200">5 años</div>
-                    <div className="text-blue-100 text-sm font-medium">de Experiencia</div>
+                    <div className="text-4xl font-bold text-brand-orange mb-2">5 años</div>
+                    <div className="text-gray-300 text-sm font-medium">de Experiencia</div>
                   </div>
                   <div className="text-center group hover:scale-105 transition-transform duration-300">
-                    <div className="text-4xl font-bold text-yellow-300 mb-2 group-hover:text-yellow-200">24/7</div>
-                    <div className="text-blue-100 text-sm font-medium">Soporte</div>
+                    <div className="text-4xl font-bold text-brand-orange mb-2">24/7</div>
+                    <div className="text-gray-300 text-sm font-medium">Soporte</div>
                   </div>
                 </div>
               </div>
@@ -80,10 +80,10 @@ export default function Home() {
               <div className="absolute top-1/2 right-1/4 w-64 h-64 bg-purple-100/30 rounded-full blur-3xl"></div>
             </div>
             <div className="relative">
-              <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent pb-4">
+              <h2 className="text-4xl md:text-5xl font-bold text-brand-black pb-4">
                 Nuestros Servicios
               </h2>
-              <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mt-4 rounded-full"></div>
+              <div className="w-24 h-1 bg-brand-orange mx-auto mt-4 rounded-full"></div>
               <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
                 Soluciones estratégicas que impactan la mente de tu audiencia y transforman tu presencia digital
               </p>
@@ -349,28 +349,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Redes Sociales */}
-      <div className="flex justify-center gap-6 py-8 bg-gray-50">
-        <a
-          href="https://www.instagram.com/__insidemind.agency/?hl=es"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl"
-        >
-          <Instagram className="h-5 w-5" />
-          <span>Instagram</span>
-        </a>
-        <a
-          href="https://wa.me/541137568524"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-xl hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl"
-        >
-          <Phone className="h-5 w-5" />
-          <span>WhatsApp</span>
-        </a>
-      </div>
 
       {/* CTA Final */}
       <section className="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white relative overflow-hidden">

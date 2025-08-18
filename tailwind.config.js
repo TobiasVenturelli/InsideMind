@@ -11,6 +11,13 @@ module.exports = {
         sans: ['var(--font-plus-jakarta)'],
         display: ['var(--font-dm-sans)'],
       },
+      colors: {
+        'brand': {
+          'orange': '#fc9700',
+          'black': '#000000',
+          'white': '#ffffff',
+        }
+      },
     },
   },
   plugins: [],
