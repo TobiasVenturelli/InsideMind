@@ -76,7 +76,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20 relative">
             <div className="absolute inset-0 -top-10">
-              <div className="absolute top-1/2 left-1/4 w-64 h-64 bg-orange_web/10 rounded-full blur-3xl"></div>
+              <div className="absolute top-1/2 left-1/4 w-64 h-64 rounded-full blur-3xl"></div>
               <div className="absolute top-1/2 right-1/4 w-64 h-64 bg-oxford_blue/10 rounded-full blur-3xl"></div>
             </div>
             <div className="relative">
@@ -263,17 +263,17 @@ export default function Home() {
                 </Accordion.Item>
 
                 <Accordion.Item value="impacto" className="border border-platinum-200 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md transition-all duration-300">
-                  <Accordion.Trigger className="flex w-full items-center justify-between p-6 text-left hover:bg-oxford_blue/5 transition-all duration-300 group">
+                  <Accordion.Trigger className="flex w-full items-center justify-between p-6 text-left hover:bg-orange_web/5 transition-all duration-300 group">
                     <div className="flex items-center gap-4">
-                      <div className="w-10 h-10 rounded-lg bg-oxford_blue/10 flex items-center justify-center group-data-[state=open]:scale-110 transition-transform duration-300">
-                        <BarChart className="h-5 w-5 text-oxford_blue" />
+                      <div className="w-10 h-10 rounded-lg bg-orange_web/10 flex items-center justify-center group-data-[state=open]:scale-110 transition-transform duration-300">
+                        <BarChart className="h-5 w-5 text-orange_web" />
                       </div>
                       <span className="font-semibold text-oxford_blue group-hover:text-orange_web transition-colors">Impacto Mental Medible</span>
                     </div>
-                    <ChevronDownIcon className="h-5 w-5 text-oxford_blue transition-transform duration-300 group-data-[state=open]:rotate-180" />
+                    <ChevronDownIcon className="h-5 w-5 text-orange_web transition-transform duration-300 group-data-[state=open]:rotate-180" />
                   </Accordion.Trigger>
-                  <Accordion.Content className="px-6 py-4 bg-oxford_blue/5">
-                    <div className="border-l-2 border-oxford_blue pl-4">
+                  <Accordion.Content className="px-6 py-4 bg-orange_web/5">
+                    <div className="border-l-2 border-orange_web pl-4">
                       <p className="text-oxford_blue-600">
                         No solo medimos clicks y conversiones. Analizamos el impacto en la percepción de marca, 
                         recordación y intención de compra para optimizar cada touchpoint del customer journey.
@@ -283,17 +283,17 @@ export default function Home() {
                 </Accordion.Item>
 
                 <Accordion.Item value="enfoque" className="border border-platinum-200 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md transition-all duration-300">
-                  <Accordion.Trigger className="flex w-full items-center justify-between p-6 text-left hover:bg-platinum/5 transition-all duration-300 group">
+                  <Accordion.Trigger className="flex w-full items-center justify-between p-6 text-left hover:bg-orange_web/5 transition-all duration-300 group">
                     <div className="flex items-center gap-4">
-                      <div className="w-10 h-10 rounded-lg bg-platinum/20 flex items-center justify-center group-data-[state=open]:scale-110 transition-transform duration-300">
-                        <Zap className="h-5 w-5 text-oxford_blue" />
+                      <div className="w-10 h-10 rounded-lg bg-orange_web/10 flex items-center justify-center group-data-[state=open]:scale-110 transition-transform duration-300">
+                        <Zap className="h-5 w-5 text-orange_web" />
                       </div>
                       <span className="font-semibold text-oxford_blue group-hover:text-orange_web transition-colors">Enfoque Integral</span>
                     </div>
-                    <ChevronDownIcon className="h-5 w-5 text-oxford_blue transition-transform duration-300 group-data-[state=open]:rotate-180" />
+                    <ChevronDownIcon className="h-5 w-5 text-orange_web transition-transform duration-300 group-data-[state=open]:rotate-180" />
                   </Accordion.Trigger>
-                  <Accordion.Content className="px-6 py-4 bg-platinum/5">
-                    <div className="border-l-2 border-oxford_blue pl-4">
+                  <Accordion.Content className="px-6 py-4 bg-orange_web/5">
+                    <div className="border-l-2 border-orange_web pl-4">
                       <p className="text-oxford_blue-600">
                         Desde paid media hasta branding, cada servicio se integra para crear una experiencia 
                         cohesiva que maximiza el impacto en la mente del consumidor y acelera el crecimiento de tu negocio.
@@ -305,14 +305,14 @@ export default function Home() {
             </div>
 
             <div className="relative animate-float">
-              <div className="absolute inset-0 bg-gradient-to-r from-oxford_blue to-oxford_blue-700 rounded-3xl blur-xl opacity-30 transform -rotate-3"></div>
-              <div className="relative bg-gradient-to-r from-oxford_blue to-oxford_blue-700 rounded-2xl p-8 shadow-2xl">
-                <div className="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-orange_web rounded-full blur-2xl opacity-20"></div>
+              <div className="absolute inset-0 bg-black rounded-3xl blur-xl opacity-30 transform -rotate-3"></div>
+              <div className="relative bg-black rounded-2xl p-8 shadow-2xl">
+                <div className="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-black rounded-full blur-2xl opacity-20"></div>
                 <div className="relative">
                   <h3 className="text-3xl font-bold mb-2 text-white">
                     Consulta Gratuita
                   </h3>
-                  <div className="w-16 h-1 bg-orange_web rounded-full mb-6"></div>
+                  <div className="w-16 h-1 bg-white rounded-full mb-6"></div>
                   <p className="text-lg text-white mb-8">
                     ¿Listo para impactar mentes? Agenda una consulta gratuita y descubre cómo podemos transformar tu presencia digital.
                   </p>

@@ -68,13 +68,13 @@ export default function ContactoPage() {
 
   if (isSubmitted) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
+      <div className="min-h-screen bg-platinum-50 flex items-center justify-center px-4">
         <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8 text-center">
-          <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <CheckCircle className="w-8 h-8 text-green-600" />
+          <div className="w-16 h-16 bg-orange_web/20 rounded-full flex items-center justify-center mx-auto mb-6">
+            <CheckCircle className="w-8 h-8 text-orange_web" />
           </div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">¡Mensaje Enviado!</h2>
-          <p className="text-gray-600 mb-6">
+          <h2 className="text-2xl font-bold text-oxford_blue mb-4">¡Mensaje Enviado!</h2>
+          <p className="text-oxford_blue-600 mb-6">
             Gracias por contactarnos. Nuestro equipo se pondrá en contacto contigo en las próximas 24 horas.
           </p>
           <div className="space-y-3">
@@ -91,13 +91,13 @@ export default function ContactoPage() {
                   acceptTerms: false
                 })
               }}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
+              className="w-full bg-orange_web hover:bg-orange_web-600 text-black font-semibold py-3 px-6 rounded-lg transition-colors"
             >
               Enviar Otro Mensaje
             </button>
             <Link 
               href="/"
-              className="w-full inline-block bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold py-3 px-6 rounded-lg transition-colors"
+              className="w-full inline-block bg-platinum-100 hover:bg-platinum-200 text-oxford_blue font-semibold py-3 px-6 rounded-lg transition-colors"
             >
               Volver al Inicio
             </Link>
@@ -108,14 +108,14 @@ export default function ContactoPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <section className="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-20">
+    <div className="min-h-screen bg-platinum-50">
+      <section className="bg-gradient-to-r from-oxford_blue to-oxford_blue-700 text-white py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Hablemos de tu proyecto
             </h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-white max-w-3xl mx-auto">
               ¿Listo para hacer crecer tu negocio? Contáctanos y descubre cómo nuestras estrategias de marketing digital pueden transformar tu empresa.
             </p>
           </div>
@@ -127,63 +127,63 @@ export default function ContactoPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div className="lg:col-span-1">
               <div className="bg-white rounded-2xl shadow-lg p-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-8">Información de contacto</h2>
+                <h2 className="text-2xl font-bold text-oxford_blue mb-8">Información de contacto</h2>
                 
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Mail className="w-6 h-6 text-blue-600" />
+                    <div className="w-12 h-12 bg-orange_web/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Mail className="w-6 h-6 text-orange_web" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900">Email</h3>
-                      <p className="text-gray-600">hola@insidemind.com</p>
-                      <p className="text-gray-600">ventas@insidemind.com</p>
+                      <h3 className="font-semibold text-oxford_blue">Email</h3>
+                      <p className="text-oxford_blue-600">hola@insidemind.com</p>
+                      <p className="text-oxford_blue-600">ventas@insidemind.com</p>
                     </div>
                   </div>
 
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Phone className="w-6 h-6 text-green-600" />
+                    <div className="w-12 h-12 bg-orange_web/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Phone className="w-6 h-6 text-orange_web" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900">Teléfono</h3>
-                      <p className="text-gray-600">+34 123 456 789</p>
-                      <p className="text-gray-600">+34 987 654 321</p>
+                      <h3 className="font-semibold text-oxford_blue">Teléfono</h3>
+                      <p className="text-oxford_blue-600">+34 123 456 789</p>
+                      <p className="text-oxford_blue-600">+34 987 654 321</p>
                     </div>
                   </div>
 
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <MapPin className="w-6 h-6 text-purple-600" />
+                    <div className="w-12 h-12 bg-orange_web/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <MapPin className="w-6 h-6 text-orange_web" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900">Oficina</h3>
-                      <p className="text-gray-600">Calle Marketing 123</p>
-                      <p className="text-gray-600">28001 Madrid, España</p>
+                      <h3 className="font-semibold text-oxford_blue">Oficina</h3>
+                      <p className="text-oxford_blue-600">Calle Marketing 123</p>
+                      <p className="text-oxford_blue-600">28001 Madrid, España</p>
                     </div>
                   </div>
 
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Clock className="w-6 h-6 text-yellow-600" />
+                    <div className="w-12 h-12 bg-orange_web/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Clock className="w-6 h-6 text-orange_web" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900">Horario</h3>
-                      <p className="text-gray-600">Lun - Vie: 9:00 - 18:00</p>
-                      <p className="text-gray-600">Sáb: 10:00 - 14:00</p>
+                      <h3 className="font-semibold text-oxford_blue">Horario</h3>
+                      <p className="text-oxford_blue-600">Lun - Vie: 9:00 - 18:00</p>
+                      <p className="text-oxford_blue-600">Sáb: 10:00 - 14:00</p>
                     </div>
                   </div>
                 </div>
 
-                <Separator.Root className="my-8 bg-gray-200 h-px" />
+                <Separator.Root className="my-8 bg-platinum-300 h-px" />
 
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-4">Consulta gratuita</h3>
-                  <p className="text-gray-600 text-sm mb-4">
+                  <h3 className="font-semibold text-oxford_blue mb-4">Consulta gratuita</h3>
+                  <p className="text-oxford_blue-600 text-sm mb-4">
                     Ofrecemos una consulta gratuita de 30 minutos para analizar tu negocio y proponer estrategias personalizadas.
                   </p>
-                  <div className="bg-blue-50 rounded-lg p-4">
-                    <p className="text-blue-800 text-sm font-medium">
+                  <div className="bg-orange_web/10 rounded-lg p-4">
+                    <p className="text-orange_web text-sm font-medium">
                       📞 ¡Llamada gratuita sin compromiso!
                     </p>
                   </div>
@@ -193,7 +193,7 @@ export default function ContactoPage() {
 
             <div className="lg:col-span-2">
               <div className="bg-white rounded-2xl shadow-lg p-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-8">Envíanos un mensaje</h2>
+                <h2 className="text-2xl font-bold text-oxford_blue mb-8">Envíanos un mensaje</h2>
                 
                 <Form.Root onSubmit={(event) => {
                   event.preventDefault();
@@ -202,10 +202,10 @@ export default function ContactoPage() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <Form.Field name="name">
                       <div className="flex items-baseline justify-between">
-                        <Form.Label className="text-sm font-medium text-gray-900">
+                        <Form.Label className="text-sm font-medium text-oxford_blue">
                           Nombre completo
                         </Form.Label>
-                        <Form.Message className="text-xs text-red-500" match="valueMissing">
+                        <Form.Message className="text-xs text-red-600" match="valueMissing">
                           Por favor ingresa tu nombre
                         </Form.Message>
                       </div>
@@ -216,7 +216,7 @@ export default function ContactoPage() {
                           required
                           value={formData.name}
                           onChange={handleChange}
-                          className="w-full px-4 py-3 mt-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors bg-white text-gray-900 placeholder-gray-500 hover:border-gray-400"
+                          className="w-full px-4 py-3 mt-2 border border-platinum-300 rounded-lg focus:ring-2 focus:ring-orange_web focus:border-transparent transition-colors bg-white text-oxford_blue placeholder-oxford_blue-400 hover:border-orange_web"
                           placeholder="Tu nombre completo"
                         />
                       </Form.Control>
@@ -224,13 +224,13 @@ export default function ContactoPage() {
 
                     <Form.Field name="email">
                       <div className="flex items-baseline justify-between">
-                        <Form.Label className="text-sm font-medium text-gray-900">
+                        <Form.Label className="text-sm font-medium text-oxford_blue">
                           Email
                         </Form.Label>
-                        <Form.Message className="text-xs text-red-500" match="valueMissing">
+                        <Form.Message className="text-xs text-red-600" match="valueMissing">
                           Por favor ingresa tu email
                         </Form.Message>
-                        <Form.Message className="text-xs text-red-500" match="typeMismatch">
+                        <Form.Message className="text-xs text-red-600" match="typeMismatch">
                           Por favor ingresa un email válido
                         </Form.Message>
                       </div>
@@ -241,7 +241,7 @@ export default function ContactoPage() {
                           required
                           value={formData.email}
                           onChange={handleChange}
-                          className="w-full px-4 py-3 mt-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors bg-white text-gray-900 placeholder-gray-500 hover:border-gray-400"
+                          className="w-full px-4 py-3 mt-2 border border-platinum-300 rounded-lg focus:ring-2 focus:ring-orange_web focus:border-transparent transition-colors bg-white text-oxford_blue placeholder-oxford_blue-400 hover:border-orange_web"
                           placeholder="tu@email.com"
                         />
                       </Form.Control>
@@ -259,7 +259,7 @@ export default function ContactoPage() {
                           name="phone"
                           value={formData.phone}
                           onChange={handleChange}
-                          className="w-full px-4 py-3 mt-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors bg-white text-gray-900 placeholder-gray-500 hover:border-gray-400"
+                          className="w-full px-4 py-3 mt-2 border border-platinum-300 rounded-lg focus:ring-2 focus:ring-orange_web focus:border-transparent transition-colors bg-white text-oxford_blue placeholder-oxford_blue-400 hover:border-orange_web"
                           placeholder="+34 123 456 789"
                         />
                       </Form.Control>
@@ -275,7 +275,7 @@ export default function ContactoPage() {
                           name="company"
                           value={formData.company}
                           onChange={handleChange}
-                          className="w-full px-4 py-3 mt-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors bg-white text-gray-900 placeholder-gray-500 hover:border-gray-400"
+                          className="w-full px-4 py-3 mt-2 border border-platinum-300 rounded-lg focus:ring-2 focus:ring-orange_web focus:border-transparent transition-colors bg-white text-oxford_blue placeholder-oxford_blue-400 hover:border-orange_web"
                           placeholder="Nombre de tu empresa"
                         />
                       </Form.Control>
@@ -291,63 +291,63 @@ export default function ContactoPage() {
                       onValueChange={(value) => setFormData(prev => ({ ...prev, service: value }))}
                     >
                       <Select.Trigger
-                        className="w-full px-4 py-3 mt-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors bg-white text-gray-900 hover:border-gray-400 flex items-center justify-between"
+                        className="w-full px-4 py-3 mt-2 border border-platinum-300 rounded-lg focus:ring-2 focus:ring-orange_web focus:border-transparent transition-colors bg-white text-oxford_blue hover:border-orange_web flex items-center justify-between"
                       >
                         <Select.Value placeholder="Selecciona un servicio" />
                         <Select.Icon>
-                          <ChevronDown className="h-4 w-4 text-gray-500" />
+                          <ChevronDown className="h-4 w-4 text-oxford_blue-400" />
                         </Select.Icon>
                       </Select.Trigger>
 
                       <Select.Portal>
                         <Select.Content
                           position="popper"
-                          className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden min-w-[200px]"
+                          className="bg-white rounded-lg shadow-lg border border-platinum-200 overflow-hidden min-w-[200px] z-50"
                         >
-                          <Select.ScrollUpButton className="flex items-center justify-center h-6 bg-white text-gray-700 cursor-default">
+                          <Select.ScrollUpButton className="flex items-center justify-center h-6 bg-white text-oxford_blue cursor-default">
                             <ChevronUp className="h-4 w-4" />
                           </Select.ScrollUpButton>
                           <Select.Viewport>
                             <Select.Group>
                               <Select.Item
                                 value="marketing-digital"
-                                className="px-4 py-2 hover:bg-blue-50 focus:bg-blue-50 focus:outline-none cursor-pointer text-gray-900 data-[highlighted]:bg-blue-50"
+                                className="px-4 py-2 hover:bg-orange_web/10 focus:bg-orange_web/10 focus:outline-none cursor-pointer text-oxford_blue data-[highlighted]:bg-orange_web/10"
                               >
                                 <Select.ItemText>Marketing Digital</Select.ItemText>
                               </Select.Item>
                               <Select.Item
                                 value="redes-sociales"
-                                className="px-4 py-2 hover:bg-blue-50 focus:bg-blue-50 focus:outline-none cursor-pointer text-gray-900 data-[highlighted]:bg-blue-50"
+                                className="px-4 py-2 hover:bg-orange_web/10 focus:bg-orange_web/10 focus:outline-none cursor-pointer text-oxford_blue data-[highlighted]:bg-orange_web/10"
                               >
                                 <Select.ItemText>Redes Sociales</Select.ItemText>
                               </Select.Item>
                               <Select.Item
                                 value="branding"
-                                className="px-4 py-2 hover:bg-blue-50 focus:bg-blue-50 focus:outline-none cursor-pointer text-gray-900 data-[highlighted]:bg-blue-50"
+                                className="px-4 py-2 hover:bg-orange_web/10 focus:bg-orange_web/10 focus:outline-none cursor-pointer text-oxford_blue data-[highlighted]:bg-orange_web/10"
                               >
                                 <Select.ItemText>Branding</Select.ItemText>
                               </Select.Item>
                               <Select.Item
                                 value="seo"
-                                className="px-4 py-2 hover:bg-blue-50 focus:bg-blue-50 focus:outline-none cursor-pointer text-gray-900 data-[highlighted]:bg-blue-50"
+                                className="px-4 py-2 hover:bg-orange_web/10 focus:bg-orange_web/10 focus:outline-none cursor-pointer text-oxford_blue data-[highlighted]:bg-orange_web/10"
                               >
                                 <Select.ItemText>SEO</Select.ItemText>
                               </Select.Item>
                               <Select.Item
                                 value="consulta-general"
-                                className="px-4 py-2 hover:bg-blue-50 focus:bg-blue-50 focus:outline-none cursor-pointer text-gray-900 data-[highlighted]:bg-blue-50"
+                                className="px-4 py-2 hover:bg-orange_web/10 focus:bg-orange_web/10 focus:outline-none cursor-pointer text-oxford_blue data-[highlighted]:bg-orange_web/10"
                               >
                                 <Select.ItemText>Consulta General</Select.ItemText>
                               </Select.Item>
                               <Select.Item
                                 value="otros"
-                                className="px-4 py-2 hover:bg-blue-50 focus:bg-blue-50 focus:outline-none cursor-pointer text-gray-900 data-[highlighted]:bg-blue-50"
+                                className="px-4 py-2 hover:bg-orange_web/10 focus:bg-orange_web/10 focus:outline-none cursor-pointer text-oxford_blue data-[highlighted]:bg-orange_web/10"
                               >
                                 <Select.ItemText>Otros</Select.ItemText>
                               </Select.Item>
                             </Select.Group>
                           </Select.Viewport>
-                          <Select.ScrollDownButton className="flex items-center justify-center h-6 bg-white text-gray-700 cursor-default">
+                          <Select.ScrollDownButton className="flex items-center justify-center h-6 bg-white text-oxford_blue cursor-default">
                             <ChevronDown className="h-4 w-4" />
                           </Select.ScrollDownButton>
                         </Select.Content>
@@ -357,10 +357,10 @@ export default function ContactoPage() {
 
                   <Form.Field name="message">
                     <div className="flex items-baseline justify-between">
-                      <Form.Label className="text-sm font-medium text-gray-900">
+                      <Form.Label className="text-sm font-medium text-oxford_blue">
                         Mensaje
                       </Form.Label>
-                      <Form.Message className="text-xs text-red-500" match="valueMissing">
+                      <Form.Message className="text-xs text-red-600" match="valueMissing">
                         Por favor ingresa tu mensaje
                       </Form.Message>
                     </div>
@@ -371,7 +371,7 @@ export default function ContactoPage() {
                         rows={6}
                         value={formData.message}
                         onChange={handleChange}
-                        className="w-full px-4 py-3 mt-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors resize-none bg-white text-gray-900 placeholder-gray-500 hover:border-gray-400"
+                        className="w-full px-4 py-3 mt-2 border border-platinum-300 rounded-lg focus:ring-2 focus:ring-orange_web focus:border-transparent transition-colors resize-none bg-white text-oxford_blue placeholder-oxford_blue-400 hover:border-orange_web"
                         placeholder="Cuéntanos sobre tu proyecto, objetivos y cómo podemos ayudarte..."
                       />
                     </Form.Control>
@@ -384,22 +384,22 @@ export default function ContactoPage() {
                         name="acceptTerms"
                         checked={formData.acceptTerms}
                         onCheckedChange={(checked) => setFormData(prev => ({ ...prev, acceptTerms: checked === true }))}
-                        className="h-5 w-5 rounded border border-gray-300 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 data-[state=checked]:bg-blue-600 data-[state=checked]:border-blue-600 transition-colors"
+                        className="h-5 w-5 rounded border border-platinum-300 bg-white hover:bg-orange_web/5 focus:outline-none focus:ring-2 focus:ring-orange_web focus:ring-offset-2 data-[state=checked]:bg-orange_web data-[state=checked]:border-orange_web transition-colors"
                       >
                         <Checkbox.Indicator className="flex items-center justify-center">
                           <Check className="h-3.5 w-3.5 text-white" />
                         </Checkbox.Indicator>
                       </Checkbox.Root>
                     </Form.Control>
-                    <Label.Root htmlFor="acceptTerms" className="text-sm text-gray-600">
-                      Acepto los <Link href="/terminos" className="text-blue-600 hover:text-blue-700 underline">términos y condiciones</Link> y la{" "}
-                      <Link href="/privacidad" className="text-blue-600 hover:text-blue-700 underline">política de privacidad</Link>.
+                    <Label.Root htmlFor="acceptTerms" className="text-sm text-oxford_blue-600">
+                      Acepto los <Link href="/terminos" className="text-orange_web hover:text-orange_web-600 underline">términos y condiciones</Link> y la{" "}
+                      <Link href="/privacidad" className="text-orange_web hover:text-orange_web-600 underline">política de privacidad</Link>.
                       También acepto recibir comunicaciones sobre los servicios de InsideMind.
                     </Label.Root>
                   </Form.Field>
 
-                  <div className="bg-gray-50 rounded-lg p-4">
-                    <p className="text-sm text-gray-600">
+                  <div className="bg-platinum/20 rounded-lg p-4">
+                    <p className="text-sm text-oxford_blue-600">
                       * Campos obligatorios.
                     </p>
                   </div>
@@ -415,11 +415,11 @@ export default function ContactoPage() {
                   <button
                     type="submit"
                     disabled={isSubmitting || !formData.acceptTerms}
-                    className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-semibold py-4 px-6 rounded-lg transition-colors flex items-center justify-center space-x-2"
+                    className="w-full bg-orange_web hover:bg-orange_web-600 disabled:bg-platinum-400 text-black font-semibold py-4 px-6 rounded-lg transition-colors flex items-center justify-center space-x-2"
                   >
                     {isSubmitting ? (
                       <>
-                        <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                        <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-black"></div>
                         <span>Enviando...</span>
                       </>
                     ) : (

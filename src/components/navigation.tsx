@@ -44,70 +44,70 @@ const Navigation = () => {
                       aria-hidden="true" 
                     />
                   </NavigationMenu.Trigger>
-                  <NavigationMenu.Content className="absolute left-0 top-full w-full sm:w-auto z-50">
-                    <div className="w-[420px] bg-brand-white shadow-xl border rounded-xl p-6 mt-2 backdrop-blur-sm bg-brand-white/95">
+                  <NavigationMenu.Content className="absolute left-0 top-full w-full sm:w-auto z-[100]">
+                    <div className="w-[420px] bg-white shadow-xl border rounded-xl p-6 mt-2 backdrop-blur-sm bg-white/95">
                       <div className="grid gap-3">
                         <Link 
                           href="/servicios/paid-media" 
-                          className="group block p-4 rounded-lg hover:bg-orange-50/50 transition-all duration-300 transform hover:scale-[1.02]"
+                          className="group block p-4 rounded-lg hover:bg-orange_web/10 transition-all duration-300 transform hover:scale-[1.02]"
                         >
                           <div className="flex items-center gap-3 mb-2">
-                            <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                              <TrendingUp className="h-4 w-4 text-brand-orange" />
+                            <div className="w-8 h-8 bg-orange_web/20 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                              <TrendingUp className="h-4 w-4 text-orange_web" />
                             </div>
-                            <div className="font-medium text-brand-black group-hover:text-brand-orange">
+                            <div className="font-medium text-oxford_blue group-hover:text-orange_web">
                               Paid Media
                             </div>
                           </div>
-                          <div className="text-sm text-gray-500 pl-11">
+                          <div className="text-sm text-oxford_blue-600 pl-11">
                             Publicidad estratégica que impacta y convierte
                           </div>
                         </Link>
                         <Link 
                           href="/servicios/redes-sociales" 
-                          className="group block p-4 rounded-lg hover:bg-orange-50/50 transition-all duration-300 transform hover:scale-[1.02]"
+                          className="group block p-4 rounded-lg hover:bg-orange_web/10 transition-all duration-300 transform hover:scale-[1.02]"
                         >
                           <div className="flex items-center gap-3 mb-2">
-                            <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                              <Users className="h-4 w-4 text-brand-orange" />
+                            <div className="w-8 h-8 bg-orange_web/20 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                              <Users className="h-4 w-4 text-orange_web" />
                             </div>
-                            <div className="font-medium text-brand-black group-hover:text-brand-orange">
+                            <div className="font-medium text-oxford_blue group-hover:text-orange_web">
                               Redes Sociales
                             </div>
                           </div>
-                          <div className="text-sm text-gray-500 pl-11">
+                          <div className="text-sm text-oxford_blue-600 pl-11">
                             Conectamos tu marca con la audiencia correcta
                           </div>
                         </Link>
                         <Link 
                           href="/servicios/sitio-web" 
-                          className="group block p-4 rounded-lg hover:bg-orange-50/50 transition-all duration-300 transform hover:scale-[1.02]"
+                          className="group block p-4 rounded-lg hover:bg-orange_web/10 transition-all duration-300 transform hover:scale-[1.02]"
                         >
                           <div className="flex items-center gap-3 mb-2">
-                            <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                              <Globe className="h-4 w-4 text-brand-orange" />
+                            <div className="w-8 h-8 bg-orange_web/20 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                              <Globe className="h-4 w-4 text-orange_web" />
                             </div>
-                            <div className="font-medium text-brand-black group-hover:text-brand-orange">
+                            <div className="font-medium text-oxford_blue group-hover:text-orange_web">
                               Sitio Web
                             </div>
                           </div>
-                          <div className="text-sm text-gray-500 pl-11">
+                          <div className="text-sm text-oxford_blue-600 pl-11">
                             Experiencias digitales que generan resultados
                           </div>
                         </Link>
                         <Link 
                           href="/servicios/branding" 
-                          className="group block p-4 rounded-lg hover:bg-orange-50/50 transition-all duration-300 transform hover:scale-[1.02]"
+                          className="group block p-4 rounded-lg hover:bg-orange_web/10 transition-all duration-300 transform hover:scale-[1.02]"
                         >
                           <div className="flex items-center gap-3 mb-2">
-                            <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                              <Palette className="h-4 w-4 text-brand-orange" />
+                            <div className="w-8 h-8 bg-orange_web/20 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                              <Palette className="h-4 w-4 text-orange_web" />
                             </div>
-                            <div className="font-medium text-brand-black group-hover:text-brand-orange">
+                            <div className="font-medium text-oxford_blue group-hover:text-orange_web">
                               Branding & Diseño Digital
                             </div>
                           </div>
-                          <div className="text-sm text-gray-500 pl-11">
+                          <div className="text-sm text-oxford_blue-600 pl-11">
                             Identidad visual que impacta en la mente
                           </div>
                         </Link>
