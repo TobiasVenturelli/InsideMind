@@ -92,31 +92,31 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Paid Media */}
-            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-gray-100 hover:border-blue-200">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl flex items-center justify-center mb-6 group-hover:from-blue-200 group-hover:to-blue-300 transition-all duration-300 group-hover:scale-110">
-                <TrendingUp className="h-8 w-8 text-blue-600 group-hover:text-blue-700" />
+            <div className="bg-brand-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-gray-100 hover:border-brand-orange">
+              <div className="w-16 h-16 bg-gradient-to-br from-orange-100 to-orange-200 rounded-2xl flex items-center justify-center mb-6 group-hover:from-orange-200 group-hover:to-orange-300 transition-all duration-300 group-hover:scale-110">
+                <TrendingUp className="h-8 w-8 text-brand-orange group-hover:text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Paid Media</h3>
+              <h3 className="text-xl font-semibold text-brand-black mb-4">Paid Media</h3>
               <p className="text-gray-600 mb-6">
                 Publicidad estratégica en plataformas digitales que impacta la mente de tu audiencia y maximiza el ROI.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-sm text-gray-600">
-                  <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                  <CheckCircle className="h-4 w-4 text-brand-orange mr-2" />
                   Google Ads & Meta Ads
                 </li>
                 <li className="flex items-center text-sm text-gray-600">
-                  <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                  <CheckCircle className="h-4 w-4 text-brand-orange mr-2" />
                   Segmentación avanzada
                 </li>
                 <li className="flex items-center text-sm text-gray-600">
-                  <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                  <CheckCircle className="h-4 w-4 text-brand-orange mr-2" />
                   Optimización continua
                 </li>
               </ul>
               <Link 
                 href="/servicios/paid-media"
-                className="group inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-50 to-blue-100 hover:from-blue-100 hover:to-blue-200 text-blue-600 hover:text-blue-700 font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md"
+                className="group inline-flex items-center px-4 py-2 bg-gradient-to-r from-orange-50 to-orange-100 hover:from-orange-100 hover:to-orange-200 text-brand-orange hover:text-orange-700 font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md"
               >
                 Saber más
                 <ArrowRight className="ml-2 h-4 w-6 group-hover:translate-x-1 transition-transform duration-300" />
@@ -124,31 +124,31 @@ export default function Home() {
             </div>
 
             {/* Redes Sociales */}
-            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-gray-100 hover:border-purple-200">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl flex items-center justify-center mb-6 group-hover:from-purple-200 group-hover:to-purple-300 transition-all duration-300 group-hover:scale-110">
-                <Users className="h-8 w-8 text-purple-600 group-hover:text-purple-700" />
+            <div className="bg-brand-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-gray-100 hover:border-brand-orange">
+              <div className="w-16 h-16 bg-gradient-to-br from-orange-100 to-orange-200 rounded-2xl flex items-center justify-center mb-6 group-hover:from-orange-200 group-hover:to-orange-300 transition-all duration-300 group-hover:scale-110">
+                <Users className="h-8 w-8 text-brand-orange group-hover:text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Redes Sociales</h3>
+              <h3 className="text-xl font-semibold text-brand-black mb-4">Redes Sociales</h3>
               <p className="text-gray-600 mb-6">
                 Conectamos tu marca con la audiencia correcta, construyendo comunidades que se convierten en clientes leales.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-sm text-gray-600">
-                  <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                  <CheckCircle className="h-4 w-4 text-brand-orange mr-2" />
                   Estrategia de contenido
                 </li>
                 <li className="flex items-center text-sm text-gray-600">
-                  <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                  <CheckCircle className="h-4 w-4 text-brand-orange mr-2" />
                   Community management
           </li>
                 <li className="flex items-center text-sm text-gray-600">
-                  <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                  <CheckCircle className="h-4 w-4 text-brand-orange mr-2" />
                   Campañas orgánicas
           </li>
               </ul>
               <Link 
                 href="/servicios/redes-sociales"
-                className="group inline-flex items-center px-6 py-2 bg-gradient-to-r from-purple-50 to-purple-100 hover:from-purple-100 hover:to-purple-200 text-purple-600 hover:text-purple-700 font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md"
+                className="group inline-flex items-center px-6 py-2 bg-gradient-to-r from-orange-50 to-orange-100 hover:from-orange-100 hover:to-orange-200 text-brand-orange hover:text-orange-700 font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md"
               >
                 Saber más
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
@@ -156,31 +156,31 @@ export default function Home() {
             </div>
 
             {/* Sitio Web */}
-            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-gray-100 hover:border-green-200">
-              <div className="w-16 h-16 bg-gradient-to-br from-green-100 to-green-200 rounded-2xl flex items-center justify-center mb-6 group-hover:from-green-200 group-hover:to-green-300 transition-all duration-300 group-hover:scale-110">
-                <Zap className="h-8 w-8 text-green-600 group-hover:text-green-700" />
+            <div className="bg-brand-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-gray-100 hover:border-brand-orange">
+              <div className="w-16 h-16 bg-gradient-to-br from-orange-100 to-orange-200 rounded-2xl flex items-center justify-center mb-6 group-hover:from-orange-200 group-hover:to-orange-300 transition-all duration-300 group-hover:scale-110">
+                <Zap className="h-8 w-8 text-brand-orange group-hover:text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Sitio Web</h3>
+              <h3 className="text-xl font-semibold text-brand-black mb-4">Sitio Web</h3>
               <p className="text-gray-600 mb-6">
                 Experiencias digitales que generan resultados. Sitios web optimizados para conversión y performance.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-sm text-gray-600">
-                  <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                  <CheckCircle className="h-4 w-4 text-brand-orange mr-2" />
                   Diseño UX/UI estratégico
                 </li>
                 <li className="flex items-center text-sm text-gray-600">
-                  <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                  <CheckCircle className="h-4 w-4 text-brand-orange mr-2" />
                   Desarrollo responsive
                 </li>
                 <li className="flex items-center text-sm text-gray-600">
-                  <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                  <CheckCircle className="h-4 w-4 text-brand-orange mr-2" />
                   Optimización SEO
                 </li>
               </ul>
               <Link 
                 href="/servicios/sitio-web"
-                className="group inline-flex items-center px-6 py-2 bg-gradient-to-r from-green-50 to-green-100 hover:from-green-100 hover:to-green-200 text-green-600 hover:text-green-700 font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md"
+                className="group inline-flex items-center px-6 py-2 bg-gradient-to-r from-orange-50 to-orange-100 hover:from-orange-100 hover:to-orange-200 text-brand-orange hover:text-orange-700 font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md"
               >
                 Saber más
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
@@ -188,31 +188,31 @@ export default function Home() {
             </div>
 
             {/* Branding & Diseño Digital */}
-            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-gray-100 hover:border-yellow-200">
-              <div className="w-16 h-16 bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-2xl flex items-center justify-center mb-6 group-hover:from-yellow-200 group-hover:to-yellow-300 transition-all duration-300 group-hover:scale-110">
-                <Zap className="h-8 w-8 text-yellow-600 group-hover:text-yellow-700" />
+            <div className="bg-brand-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 group hover:scale-105 border border-gray-100 hover:border-brand-orange">
+              <div className="w-16 h-16 bg-gradient-to-br from-orange-100 to-orange-200 rounded-2xl flex items-center justify-center mb-6 group-hover:from-orange-200 group-hover:to-orange-300 transition-all duration-300 group-hover:scale-110">
+                <Zap className="h-8 w-8 text-brand-orange group-hover:text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Branding & Diseño Digital</h3>
+              <h3 className="text-xl font-semibold text-brand-black mb-4">Branding & Diseño Digital</h3>
               <p className="text-gray-600 mb-6">
                 Identidad visual que impacta en la mente. Creamos marcas memorables y diseños que convierten.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-sm text-gray-600">
-                  <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                  <CheckCircle className="h-4 w-4 text-brand-orange mr-2" />
                   Identidad visual completa
                 </li>
                 <li className="flex items-center text-sm text-gray-600">
-                  <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                  <CheckCircle className="h-4 w-4 text-brand-orange mr-2" />
                   Diseño digital estratégico
                 </li>
                 <li className="flex items-center text-sm text-gray-600">
-                  <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                  <CheckCircle className="h-4 w-4 text-brand-orange mr-2" />
                   Manual de marca
                 </li>
               </ul>
               <Link 
                 href="/servicios/branding"
-                className="group inline-flex items-center px-6 py-2 bg-gradient-to-r from-yellow-50 to-yellow-100 hover:from-yellow-100 hover:to-yellow-200 text-yellow-600 hover:text-yellow-700 font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md"
+                className="group inline-flex items-center px-6 py-2 bg-gradient-to-r from-orange-50 to-orange-100 hover:from-orange-100 hover:to-orange-200 text-brand-orange hover:text-orange-700 font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-md"
               >
                 Saber más
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />

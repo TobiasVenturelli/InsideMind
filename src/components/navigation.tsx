@@ -11,13 +11,13 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+    <nav className="sticky top-0 z-50 w-full border-b border-gray-200 bg-brand-white/95 backdrop-blur supports-[backdrop-filter]:bg-brand-white/60">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold text-gray-900">
-              Inside<span className="text-blue-600">Mind</span>
+            <Link href="/" className="text-2xl font-bold text-brand-black">
+              Inside<span className="text-brand-orange">Mind</span>
             </Link>
           </div>
 
@@ -29,7 +29,7 @@ const Navigation = () => {
                   <NavigationMenu.Link asChild>
                     <Link 
                       href="/" 
-                      className="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-blue-600 after:transition-all after:duration-300 h-[38px] flex items-center"
+                      className="text-brand-black hover:text-brand-orange px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-brand-orange after:transition-all after:duration-300 h-[38px] flex items-center"
                     >
                       Inicio
                     </Link>
@@ -37,7 +37,7 @@ const Navigation = () => {
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item>
-                  <NavigationMenu.Trigger className="group flex items-center gap-1 text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 group-hover:after:w-full after:bg-blue-600 after:transition-all after:duration-300 h-[38px]">
+                  <NavigationMenu.Trigger className="group flex items-center gap-1 text-brand-black hover:text-brand-orange px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 group-hover:after:w-full after:bg-brand-orange after:transition-all after:duration-300 h-[38px]">
                     <span>Servicios</span>
                     <ChevronDownIcon 
                       className="h-4 w-4 transition-transform duration-300 group-data-[state=open]:rotate-180" 
@@ -45,17 +45,17 @@ const Navigation = () => {
                     />
                   </NavigationMenu.Trigger>
                   <NavigationMenu.Content className="absolute left-0 top-full w-full sm:w-auto z-50">
-                    <div className="w-[420px] bg-white shadow-xl border rounded-xl p-6 mt-2 backdrop-blur-sm bg-white/95">
+                    <div className="w-[420px] bg-brand-white shadow-xl border rounded-xl p-6 mt-2 backdrop-blur-sm bg-brand-white/95">
                       <div className="grid gap-3">
                         <Link 
                           href="/servicios/paid-media" 
-                          className="group block p-4 rounded-lg hover:bg-blue-50/50 transition-all duration-300 transform hover:scale-[1.02]"
+                          className="group block p-4 rounded-lg hover:bg-orange-50/50 transition-all duration-300 transform hover:scale-[1.02]"
                         >
                           <div className="flex items-center gap-3 mb-2">
-                            <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                              <TrendingUp className="h-4 w-4 text-blue-600" />
+                            <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                              <TrendingUp className="h-4 w-4 text-brand-orange" />
                             </div>
-                            <div className="font-medium text-gray-900 group-hover:text-blue-600">
+                            <div className="font-medium text-brand-black group-hover:text-brand-orange">
                               Paid Media
                             </div>
                           </div>
@@ -65,13 +65,13 @@ const Navigation = () => {
                         </Link>
                         <Link 
                           href="/servicios/redes-sociales" 
-                          className="group block p-4 rounded-lg hover:bg-purple-50/50 transition-all duration-300 transform hover:scale-[1.02]"
+                          className="group block p-4 rounded-lg hover:bg-orange-50/50 transition-all duration-300 transform hover:scale-[1.02]"
                         >
                           <div className="flex items-center gap-3 mb-2">
-                            <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                              <Users className="h-4 w-4 text-purple-600" />
+                            <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                              <Users className="h-4 w-4 text-brand-orange" />
                             </div>
-                            <div className="font-medium text-gray-900 group-hover:text-purple-600">
+                            <div className="font-medium text-brand-black group-hover:text-brand-orange">
                               Redes Sociales
                             </div>
                           </div>
@@ -81,13 +81,13 @@ const Navigation = () => {
                         </Link>
                         <Link 
                           href="/servicios/sitio-web" 
-                          className="group block p-4 rounded-lg hover:bg-green-50/50 transition-all duration-300 transform hover:scale-[1.02]"
+                          className="group block p-4 rounded-lg hover:bg-orange-50/50 transition-all duration-300 transform hover:scale-[1.02]"
                         >
                           <div className="flex items-center gap-3 mb-2">
-                            <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                              <Globe className="h-4 w-4 text-green-600" />
+                            <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                              <Globe className="h-4 w-4 text-brand-orange" />
                             </div>
-                            <div className="font-medium text-gray-900 group-hover:text-green-600">
+                            <div className="font-medium text-brand-black group-hover:text-brand-orange">
                               Sitio Web
                             </div>
                           </div>
@@ -97,13 +97,13 @@ const Navigation = () => {
                         </Link>
                         <Link 
                           href="/servicios/branding" 
-                          className="group block p-4 rounded-lg hover:bg-yellow-50/50 transition-all duration-300 transform hover:scale-[1.02]"
+                          className="group block p-4 rounded-lg hover:bg-orange-50/50 transition-all duration-300 transform hover:scale-[1.02]"
                         >
                           <div className="flex items-center gap-3 mb-2">
-                            <div className="w-8 h-8 bg-yellow-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                              <Palette className="h-4 w-4 text-yellow-600" />
+                            <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                              <Palette className="h-4 w-4 text-brand-orange" />
                             </div>
-                            <div className="font-medium text-gray-900 group-hover:text-yellow-600">
+                            <div className="font-medium text-brand-black group-hover:text-brand-orange">
                               Branding & Diseño Digital
                             </div>
                           </div>
@@ -120,7 +120,7 @@ const Navigation = () => {
                   <NavigationMenu.Link asChild>
                     <Link 
                       href="/portafolio" 
-                      className="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-blue-600 after:transition-all after:duration-300 h-[38px] flex items-center"
+                      className="text-brand-black hover:text-brand-orange px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-brand-orange after:transition-all after:duration-300 h-[38px] flex items-center"
                     >
                       Portafolio
                     </Link>
@@ -131,7 +131,7 @@ const Navigation = () => {
                   <NavigationMenu.Link asChild>
                     <Link 
                       href="/nosotros" 
-                      className="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-blue-600 after:transition-all after:duration-300 h-[38px] flex items-center"
+                      className="text-brand-black hover:text-brand-orange px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-brand-orange after:transition-all after:duration-300 h-[38px] flex items-center"
                     >
                       Nosotros
                     </Link>
@@ -142,7 +142,7 @@ const Navigation = () => {
                   <NavigationMenu.Link asChild>
                     <Link 
                       href="/contacto" 
-                      className="group inline-flex items-center bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow-sm hover:shadow-md transition-all duration-300 transform hover:scale-[1.02] h-[38px]"
+                      className="group inline-flex items-center bg-brand-orange hover:bg-orange-600 text-brand-black px-4 py-2 rounded-xl text-sm font-semibold shadow-sm hover:shadow-md transition-all duration-300 transform hover:scale-[1.02] h-[38px]"
                     >
                       Contacto
                     </Link>
@@ -156,7 +156,7 @@ const Navigation = () => {
           <div className="md:hidden">
             <button
               type="button"
-              className="text-gray-900 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 p-2"
+              className="text-brand-black hover:text-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 p-2"
               onClick={() => setIsOpen(!isOpen)}
             >
               {isOpen ? (
