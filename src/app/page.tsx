@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, CheckCircle, TrendingUp, Users, Zap, BarChart } from "lucide-react"
+import { ArrowRight, CheckCircle, TrendingUp, Users, Zap, BarChart, Instagram, Phone } from "lucide-react"
 import * as Accordion from "@radix-ui/react-accordion"
 import * as Tooltip from "@radix-ui/react-tooltip"
 import { ChevronDownIcon } from "@radix-ui/react-icons"
@@ -349,6 +349,28 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Redes Sociales */}
+      <div className="flex justify-center gap-6 py-8 bg-gray-50">
+        <a
+          href="https://www.instagram.com/__insidemind.agency/?hl=es"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl"
+        >
+          <Instagram className="h-5 w-5" />
+          <span>Instagram</span>
+        </a>
+        <a
+          href="https://wa.me/541137568524"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-xl hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl"
+        >
+          <Phone className="h-5 w-5" />
+          <span>WhatsApp</span>
+        </a>
+      </div>
 
       {/* CTA Final */}
       <section className="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white relative overflow-hidden">
