@@ -3,13 +3,13 @@ import { Separator } from "@radix-ui/react-separator"
 
 const Footer = () => {
   return (
-    <footer className="bg-brand-black text-brand-white">
+    <footer className="bg-oxford_blue text-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo y descripción */}
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="text-2xl font-bold">
-              Inside<span className="text-brand-orange">Mind</span>
+              Inside<span className="text-orange_web">Mind</span>
             </Link>
             <p className="mt-4 text-gray-300 max-w-md">
               No hacemos magia, impactamos su mente con estrategia. 
@@ -20,7 +20,7 @@ const Footer = () => {
                 href="https://www.instagram.com/__insidemind.agency/?hl=es" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-brand-orange transition-colors"
+                className="text-gray-300 hover:text-orange_web transition-colors"
                 aria-label="Instagram"
               >
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -31,7 +31,7 @@ const Footer = () => {
                 href="https://wa.me/541169005142"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-brand-orange transition-colors"
+                className="text-gray-300 hover:text-orange_web transition-colors"
                 aria-label="WhatsApp"
               >
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -46,22 +46,22 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Servicios</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/servicios/paid-media" className="text-gray-300 hover:text-brand-orange transition-colors">
+                <Link href="/servicios/paid-media" className="text-gray-300 hover:text-orange_web transition-colors">
                   Paid Media
                 </Link>
               </li>
               <li>
-                <Link href="/servicios/redes-sociales" className="text-gray-300 hover:text-brand-orange transition-colors">
+                <Link href="/servicios/redes-sociales" className="text-gray-300 hover:text-orange_web transition-colors">
                   Redes Sociales
                 </Link>
               </li>
               <li>
-                <Link href="/servicios/sitio-web" className="text-gray-300 hover:text-brand-orange transition-colors">
+                <Link href="/servicios/sitio-web" className="text-gray-300 hover:text-orange_web transition-colors">
                   Sitio Web
                 </Link>
               </li>
               <li>
-                <Link href="/servicios/branding" className="text-gray-300 hover:text-brand-orange transition-colors">
+                <Link href="/servicios/branding" className="text-gray-300 hover:text-orange_web transition-colors">
                   Branding & Diseño
                 </Link>
               </li>
@@ -73,22 +73,22 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Enlaces</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/nosotros" className="text-gray-300 hover:text-brand-orange transition-colors">
+                <Link href="/nosotros" className="text-gray-300 hover:text-orange_web transition-colors">
                   Nosotros
                 </Link>
               </li>
               <li>
-                <Link href="/portafolio" className="text-gray-300 hover:text-brand-orange transition-colors">
+                <Link href="/portafolio" className="text-gray-300 hover:text-orange_web transition-colors">
                   Portafolio
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-gray-300 hover:text-brand-orange transition-colors">
+                <Link href="/blog" className="text-gray-300 hover:text-orange_web transition-colors">
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/contacto" className="text-gray-300 hover:text-brand-orange transition-colors">
+                <Link href="/contacto" className="text-gray-300 hover:text-orange_web transition-colors">
                   Contacto
                 </Link>
               </li>
@@ -103,10 +103,10 @@ const Footer = () => {
             © 2024 InsideMind. Todos los derechos reservados.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="/privacidad" className="text-gray-300 hover:text-brand-orange text-sm transition-colors">
+            <Link href="/privacidad" className="text-gray-300 hover:text-orange_web text-sm transition-colors">
               Política de Privacidad
             </Link>
-            <Link href="/terminos" className="text-gray-300 hover:text-brand-orange text-sm transition-colors">
+            <Link href="/terminos" className="text-gray-300 hover:text-orange_web text-sm transition-colors">
               Términos de Uso
             </Link>
           </div>

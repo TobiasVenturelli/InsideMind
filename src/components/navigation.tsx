@@ -11,13 +11,13 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-gray-200 bg-brand-white/95 backdrop-blur supports-[backdrop-filter]:bg-brand-white/60">
+    <nav className="sticky top-0 z-50 w-full border-b border-oxford_blue-200 bg-oxford_blue/95 backdrop-blur supports-[backdrop-filter]:bg-oxford_blue/90">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold text-brand-black">
-              Inside<span className="text-brand-orange">Mind</span>
+            <Link href="/" className="text-2xl font-bold text-white">
+              Inside<span className="text-orange_web">Mind</span>
             </Link>
           </div>
 
@@ -29,7 +29,7 @@ const Navigation = () => {
                   <NavigationMenu.Link asChild>
                     <Link 
                       href="/" 
-                      className="text-brand-black hover:text-brand-orange px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-brand-orange after:transition-all after:duration-300 h-[38px] flex items-center"
+                      className="text-platinum-900 hover:text-orange_web px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-orange_web after:transition-all after:duration-300 h-[38px] flex items-center"
                     >
                       Inicio
                     </Link>
@@ -37,7 +37,7 @@ const Navigation = () => {
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item>
-                  <NavigationMenu.Trigger className="group flex items-center gap-1 text-brand-black hover:text-brand-orange px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 group-hover:after:w-full after:bg-brand-orange after:transition-all after:duration-300 h-[38px]">
+                  <NavigationMenu.Trigger className="group flex items-center gap-1 text-platinum-900 hover:text-orange_web px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 group-hover:after:w-full after:bg-orange_web after:transition-all after:duration-300 h-[38px]">
                     <span>Servicios</span>
                     <ChevronDownIcon 
                       className="h-4 w-4 transition-transform duration-300 group-data-[state=open]:rotate-180" 
@@ -120,7 +120,7 @@ const Navigation = () => {
                   <NavigationMenu.Link asChild>
                     <Link 
                       href="/portafolio" 
-                      className="text-brand-black hover:text-brand-orange px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-brand-orange after:transition-all after:duration-300 h-[38px] flex items-center"
+                      className="text-platinum-900 hover:text-orange_web px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-orange_web after:transition-all after:duration-300 h-[38px] flex items-center"
                     >
                       Portafolio
                     </Link>
@@ -131,7 +131,7 @@ const Navigation = () => {
                   <NavigationMenu.Link asChild>
                     <Link 
                       href="/nosotros" 
-                      className="text-brand-black hover:text-brand-orange px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-brand-orange after:transition-all after:duration-300 h-[38px] flex items-center"
+                      className="text-platinum-900 hover:text-orange_web px-3 py-2 text-sm font-semibold transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-orange_web after:transition-all after:duration-300 h-[38px] flex items-center"
                     >
                       Nosotros
                     </Link>
@@ -142,7 +142,7 @@ const Navigation = () => {
                   <NavigationMenu.Link asChild>
                     <Link 
                       href="/contacto" 
-                      className="group inline-flex items-center bg-brand-orange hover:bg-orange-600 text-brand-black px-4 py-2 rounded-xl text-sm font-semibold shadow-sm hover:shadow-md transition-all duration-300 transform hover:scale-[1.02] h-[38px]"
+                      className="group inline-flex items-center bg-orange_web hover:bg-orange_web-600 text-oxford_blue px-4 py-2 rounded-xl text-sm font-semibold shadow-sm hover:shadow-md transition-all duration-300 transform hover:scale-[1.02] h-[38px]"
                     >
                       Contacto
                     </Link>
@@ -156,7 +156,7 @@ const Navigation = () => {
           <div className="md:hidden">
             <button
               type="button"
-              className="text-brand-black hover:text-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 p-2"
+              className="text-platinum-900 hover:text-orange_web focus:outline-none focus:ring-2 focus:ring-brand-orange focus:ring-offset-2 p-2"
               onClick={() => setIsOpen(!isOpen)}
             >
               {isOpen ? (
