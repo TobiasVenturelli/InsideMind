@@ -109,7 +109,7 @@ export default function ContactoPage() {
 
   return (
     <div className="min-h-screen bg-platinum-50">
-      <section className="bg-gradient-to-r from-oxford_blue to-oxford_blue-700 text-white py-20">
+      <section className="bg-oxford_blue text-white py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -147,8 +147,8 @@ export default function ContactoPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-oxford_blue">Teléfono</h3>
-                      <p className="text-oxford_blue-600">+34 123 456 789</p>
-                      <p className="text-oxford_blue-600">+34 987 654 321</p>
+                      <p className="text-oxford_blue-600">+54 011 6900 5142</p>
+                      <p className="text-oxford_blue-600">+54 011 3756 8524</p>
                     </div>
                   </div>
 
@@ -158,8 +158,8 @@ export default function ContactoPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-oxford_blue">Oficina</h3>
-                      <p className="text-oxford_blue-600">Calle Marketing 123</p>
-                      <p className="text-oxford_blue-600">28001 Madrid, España</p>
+                      <p className="text-oxford_blue-600">Calle Pueyrredon 2754</p>
+                      <p className="text-oxford_blue-600">San Martin, Buenos Aires, Argentina</p>
                     </div>
                   </div>
 
@@ -436,14 +436,13 @@ export default function ContactoPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-text-oxford_blue">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              ¿Por qué elegir InsideMind<br />
-              <span className="text-xl font-normal">Agency?</span>
+            <h2 className="text-3xl font-bold text-orange_web mb-4">
+              ¿Por qué elegir InsideMind?<br />
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="text-xl text-white">
               Nuestro compromiso es tu éxito digital
             </p>
           </div>
@@ -453,8 +452,8 @@ export default function ContactoPage() {
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <CheckCircle className="w-8 h-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Respuesta rápida</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold text-white mb-4">Respuesta rápida</h3>
+              <p className="text-gray-300">
                 Respondemos a todas las consultas en menos de 24 horas, garantizando una comunicación fluida y eficiente.
               </p>
             </div>
@@ -463,8 +462,8 @@ export default function ContactoPage() {
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <CheckCircle className="w-8 h-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Consulta gratuita</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold text-white mb-4">Consulta gratuita</h3>
+              <p className="text-gray-300">
                 Ofrecemos una primera consulta completamente gratuita para entender tus necesidades y objetivos.
               </p>
             </div>
@@ -473,8 +472,8 @@ export default function ContactoPage() {
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <CheckCircle className="w-8 h-8 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Estrategia personalizada</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold text-white mb-4">Estrategia personalizada</h3>
+              <p className="text-gray-300">
                 Cada proyecto es único. Desarrollamos estrategias a medida que se adaptan perfectamente a tu negocio.
               </p>
             </div>
